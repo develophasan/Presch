@@ -16,7 +16,7 @@
     "version": "0.0.0",
     "platforms": ["ios", "android"],
     "ios": {
-      "bundleIdentifier": "com.yourcompany.preschoolteachernetwork"  // Buraya benzersiz Bundle ID girin
+      "bundleIdentifier": "com.yourcompany.preschoolteachernetwork" 
     },
     "extra": {
       "eas": {

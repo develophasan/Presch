@@ -2,20 +2,32 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "ios": {
+        "image": "latest"  // Burada en güncel imajı kullanıyoruz
+      },
+      "android": {
+        "image": "latest"
+      }
     },
     "preview": {
       "distribution": "internal",
       "ios": {
-        "simulator": true
+        "simulator": true,
+        "image": "latest" // iOS simülatör için de imaj belirtiyoruz
+      },
+      "android": {
+        "image": "latest"
       }
     },
     "production": {
       "ios": {
-        "simulator": false
+        "simulator": false,
+        "image": "latest"  // Production için imaj
       },
       "android": {
-        "gradleCommand": ":app:bundleRelease"
+        "gradleCommand": ":app:bundleRelease",
+        "image": "latest"
       }
     }
   }

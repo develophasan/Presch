@@ -9,6 +9,22 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  {
+  "expo": {
+    "name": "preschool-teacher-network",
+    "slug": "preschool-teacher-network",
+    "version": "0.0.0",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.preschoolteachernetwork"  // Buraya benzersiz Bundle ID girin
+    },
+    "extra": {
+      "eas": {
+        "projectId": "92dee1db-36f7-48f5-832c-d7b1d49aa972"
+      }
+    }
+  }
+},
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",

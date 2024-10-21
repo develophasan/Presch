@@ -45,7 +45,7 @@ const Header: React.FC = () => {
     <header className="bg-purple-600 text-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex items-center">
-          <Heart className="mr-2" /> OkulÖncesiBağ
+          <Heart className="mr-2" /> Presch
         </Link>
         <form onSubmit={handleSearch} className="flex-grow mx-4">
           <div className="relative">
